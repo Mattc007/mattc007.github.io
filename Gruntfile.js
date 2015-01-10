@@ -318,7 +318,7 @@ module.exports = function (grunt) {
       dist: {
         options: {
           remote: 'git@github.com:mattc007/mattc007.github.io.git',
-          branch: 'master',
+          branch: 'gh-pages',
           commit: true,
           push: true
         }
