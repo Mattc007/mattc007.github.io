@@ -1,0 +1,53 @@
+// layouts
+header {
+  margin-top: 20px;
+}
+
+main {
+  margin-top: 80px;
+}
+
+footer {
+  margin: 20px 0;
+  text-align: center;
+}
+
+// navigation
+#site-title {
+  float: left;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+
+  .nav-option {
+    display: inline;
+    margin: 0 5px;
+    font-size: 1.0rem;
+  }
+}
+
+// post
+.post-header {
+  border-left: 1px #ccc solid;
+}
+
+// pagination
+.paging {
+  .paging-previous {
+    &:before {
+      margin-right: .25em;
+      content: '\2190';
+    }
+  }
+
+  .paging-next {
+    &:after {
+      margin-left: .25em;
+      content: '\2192';
+    }
+  }
+}

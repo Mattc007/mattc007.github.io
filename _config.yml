@@ -5,9 +5,20 @@
 
 name: mattc007.github.io
 description: Matt Catrett
+title: Matt Catrett
 author:
   name: Matt Catrett
   email: mcatrett@gmail.com
+
+# google analytics
+ga:
+  code: UA-35639171-1
+
+twitter: mattcatrett
+github: Mattc007
+
+paginator_path: _posts
+paginate: 1
 
 # Grunt handles images and assets.
 exclude: ['img', 'css', 'js', 'fonts',

@@ -1,35 +1,35 @@
 <!DOCTYPE html>
-<html class="no-js">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ page.title }}</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
 
-    <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+  {% include head.html %}
 
-    <!-- build:css({app,.tmp}) /css/main.css -->
-    <link rel="stylesheet" href="/_bower_components/normalize-css/normalize.css">
-    <link rel="stylesheet" href="/css/syntax.css">
-    <link rel="stylesheet" href="/css/main.css">
-    <!-- endbuild -->
-
-    <!-- build:js({app,.tmp}) /js/head-scripts.js -->
-    <!-- Replace with a custom modernizer build for production -->
-    <script src="/_bower_components/modernizr/modernizr.js"></script>
-    <!-- endbuild -->
-
-  </head>
   <body>
-    <!--[if lt IE 8]>
-        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
 
-    {{ content }}
+    <div class="container content">
+      <header class="masthead">
+        <h3 class="masthead-title">
+          <a href="{{ site.baseurl }}" title="Home" id="site-title">{{ site.title }}</a>
+          <ul class="nav">
+            <li class="nav-option"><a href="/about.html" title="About">About</a></li>
+            <li class="nav-option"><a href="{{ site.baseurl }}" title="Posts">Posts</a></li>
+            <li class="nav-option"><a href="http://github.com/{{ site.github }}" title="Github">Github</a></li>
+            <li class="nav-option"><a href="http://twitter.com/{{ site.twitter }}" title="Twitter">Twitter</a></li>
+          </ul>
+        </h3>
+      </header>
 
-    {% include scripts.html %}
-    {% include googleanalytics.html %}
+      <main>
+        {{ content }}
+      </main>
+
+      <footer class="footer">
+        <small>
+          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}. All rights reserved.
+        </small>
+      </footer>
+
+      {% include scripts.html %}
+    </div>
 
   </body>
 </html>
