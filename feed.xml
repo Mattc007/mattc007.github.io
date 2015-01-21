@@ -1,23 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-
- <title>Matt Catrett</title>
- <link href="http://www.mattcatrett.comatom.xml" rel="self"/>
- <link href="http://www.mattcatrett.com"/>
- <updated>2015-01-21T17:19:21-06:00</updated>
- <id>http://www.mattcatrett.com</id>
- <author>
-   <name></name>
-   <email></email>
- </author>
-
- 
- <entry>
-   <title>Pixyll in Action</title>
-   <link href="http://www.mattcatrett.com/jekyll/pixyll/2015/01/20/this-is-what-the-theme-looks-like/"/>
-   <updated>2015-01-20T12:31:19Z</updated>
-   <id>http://www.mattcatrett.com/jekyll/pixyll/2015/01/20/this-is-what-the-theme-looks-like</id>
-   <content type="html">&lt;p&gt;There is a significant amount of subtle, yet precisely calibrated, styling to ensure
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matt Catrett</title>
+    <description>Matt Catrett</description>
+    <link>http://www.mattcatrett.com/</link>
+    <atom:link href="http://www.mattcatrett.com/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Pixyll in Action</title>
+        <description>&lt;p&gt;There is a significant amount of subtle, yet precisely calibrated, styling to ensure
 that your content is emphasized while still looking aesthetically pleasing.&lt;/p&gt;
 
 &lt;p&gt;All links are easy to &lt;a href=&quot;#&quot;&gt;locate and discern&lt;/a&gt;, yet don&amp;rsquo;t detract from the harmony
@@ -102,15 +93,15 @@ hopefully sidestep this inconvenience.&lt;/p&gt;
 or add, features.&lt;/p&gt;
 
 &lt;p&gt;Happy writing.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Welcome to Jekyll!</title>
-   <link href="http://www.mattcatrett.com/jekyll/update/2015/01/10/welcome-to-jekyll/"/>
-   <updated>2015-01-10T13:19:30Z</updated>
-   <id>http://www.mattcatrett.com/jekyll/update/2015/01/10/welcome-to-jekyll</id>
-   <content type="html">&lt;p&gt;You&amp;rsquo;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
+</description>
+        <pubDate>Tue, 20 Jan 2015 12:31:19 +0000</pubDate>
+        <link>http://www.mattcatrett.com/jekyll/pixyll/2015/01/20/this-is-what-the-theme-looks-like/</link>
+        <guid isPermaLink="true">http://www.mattcatrett.com/jekyll/pixyll/2015/01/20/this-is-what-the-theme-looks-like/</guid>
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You&amp;rsquo;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
 To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
 
 &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
@@ -123,15 +114,15 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll&amp;rsquo;s GitHub repo&lt;/a&gt;.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Yo Jekyll!</title>
-   <link href="http://www.mattcatrett.com/jekyll/update/2015/01/10/yo-jekyllrb/"/>
-   <updated>2015-01-10T00:00:00-06:00</updated>
-   <id>http://www.mattcatrett.com/jekyll/update/2015/01/10/yo-jekyllrb</id>
-   <content type="html">&lt;h1 id=&quot;toc_0&quot;&gt;&amp;lsquo;Allo, &amp;#39;Allo!&lt;/h1&gt;
+</description>
+        <pubDate>Sat, 10 Jan 2015 13:19:30 +0000</pubDate>
+        <link>http://www.mattcatrett.com/jekyll/update/2015/01/10/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://www.mattcatrett.com/jekyll/update/2015/01/10/welcome-to-jekyll/</guid>
+      </item>
+    
+      <item>
+        <title>Yo Jekyll!</title>
+        <description>&lt;h1 id=&quot;toc_0&quot;&gt;&amp;lsquo;Allo, &amp;#39;Allo!&lt;/h1&gt;
 
 &lt;p&gt;You now have&lt;/p&gt;
 
@@ -147,8 +138,11 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 &lt;p&gt;installed.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Enjoy coding!&lt;/strong&gt;&lt;/p&gt;
-</content>
- </entry>
- 
-
-</feed>
+</description>
+        <pubDate>Sat, 10 Jan 2015 00:00:00 -0600</pubDate>
+        <link>http://www.mattcatrett.com/jekyll/update/2015/01/10/yo-jekyllrb/</link>
+        <guid isPermaLink="true">http://www.mattcatrett.com/jekyll/update/2015/01/10/yo-jekyllrb/</guid>
+      </item>
+    
+  </channel>
+</rss>
