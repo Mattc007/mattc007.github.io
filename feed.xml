@@ -7,141 +7,33 @@
     <atom:link href="http://www.mattcatrett.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Pixyll in Action</title>
-        <description>&lt;p&gt;There is a significant amount of subtle, yet precisely calibrated, styling to ensure
-that your content is emphasized while still looking aesthetically pleasing.&lt;/p&gt;
-
-&lt;p&gt;All links are easy to &lt;a href=&quot;#&quot;&gt;locate and discern&lt;/a&gt;, yet don&amp;rsquo;t detract from the harmony
-of a paragraph. The &lt;em&gt;same&lt;/em&gt; goes for italics and &lt;strong&gt;bold&lt;/strong&gt; elements. Even the the strikeout
-works if &lt;del&gt;for some reason you need to update your post&lt;/del&gt;. For consistency&amp;rsquo;s sake,
-&lt;ins&gt;The same goes for insertions&lt;/ins&gt;, of course.&lt;/p&gt;
-
-&lt;h3 id=&quot;toc_0&quot;&gt;Code, with syntax highlighting&lt;/h3&gt;
-
-&lt;p&gt;Code blocks use the &lt;a href=&quot;http://ethanschoonover.com/solarized&quot;&gt;solarized&lt;/a&gt; theme. Both the light and
-dark versions are included, so you can swap them out easily. &lt;em&gt;Solarized Dark&lt;/em&gt; is the default.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Awesome&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ActiveRecord&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Base&lt;/span&gt;
-  &lt;span class=&quot;kp&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;EvenMoreAwesome&lt;/span&gt;
-
-  &lt;span class=&quot;n&quot;&gt;validates_presence_of&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:something&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;validates&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;email_format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;email&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;email&lt;/span&gt;
-    &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h1 id=&quot;toc_1&quot;&gt;Headings!&lt;/h1&gt;
-
-&lt;p&gt;They&amp;rsquo;re responsive, and well-proportioned (in &lt;code&gt;padding&lt;/code&gt;, &lt;code&gt;line-height&lt;/code&gt;, &lt;code&gt;margin&lt;/code&gt;, and &lt;code&gt;font-size&lt;/code&gt;).
-They also heavily rely on the awesome utility, &lt;a href=&quot;http://www.basscss.com/&quot;&gt;BASSCSS&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h5 id=&quot;toc_2&quot;&gt;They draw the perfect amount of attention&lt;/h5&gt;
-
-&lt;p&gt;This allows your content to have the proper informational and contextual hierarchy. Yay.&lt;/p&gt;
-
-&lt;h3 id=&quot;toc_3&quot;&gt;There are lists, too&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Apples&lt;/li&gt;
-&lt;li&gt;Oranges&lt;/li&gt;
-&lt;li&gt;Potatoes&lt;/li&gt;
-&lt;li&gt;Milk&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Mow the lawn&lt;/li&gt;
-&lt;li&gt;Feed the dog&lt;/li&gt;
-&lt;li&gt;Dance&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;toc_4&quot;&gt;Images look great, too&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/1424573/3378137/abac6d7c-fbe6-11e3-8e09-55745b6a8176.png&quot; alt=&quot;desk&quot;&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;toc_5&quot;&gt;There are also pretty colors&lt;/h3&gt;
-
-&lt;p&gt;Also the result of &lt;a href=&quot;http://www.basscss.com/&quot;&gt;BASSCSS&lt;/a&gt;, you can &lt;span class=&quot;bg-dark-gray white&quot;&gt;highlight&lt;/span&gt; certain components
-of a &lt;span class=&quot;red&quot;&gt;post&lt;/span&gt; &lt;span class=&quot;mid-gray&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;green&quot;&gt;CSS&lt;/span&gt; &lt;span class=&quot;orange&quot;&gt;classes&lt;/span&gt;.&lt;/p&gt;
-
-&lt;p&gt;I don&amp;rsquo;t recommend using blue, though. It looks like a &lt;span class=&quot;blue&quot;&gt;link&lt;/span&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;toc_6&quot;&gt;Stylish blockquotes included&lt;/h3&gt;
-
-&lt;p&gt;You can use the markdown quote syntax, &lt;code&gt;&amp;gt;&lt;/code&gt; for simple quotes.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis porta mauris.&lt;/p&gt;
+        <title>On Reading</title>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;“If books were roads, some would be made for driving quickly - details are scant, and what details there are appear drab - but the velocity and torque of the narrative is exhilarating. Some books, if seen as roads, would be make for walking - the trajectory of the road mattering far less than the vistas these roads might afford. The best book for me: I drive through it quickly but am forced to stop on occasion, to pull over and marvel.”
+― Peter Mendelsund, What We See When We Read&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;However, you need to inject html if you&amp;rsquo;d like a citation footer. I will be working on a way to
-hopefully sidestep this inconvenience.&lt;/p&gt;
+&lt;p&gt;I did not set many goals for this new year, but I have decided to continue a habit that I developed over the last year: voracious reading. A few years back, I read Edmund Morris&amp;#39; &lt;a href=&quot;http://amzn.com/03757567870&quot;&gt;The Rise of Theodore Roosevelt&lt;/a&gt; and one of the most memorable takeaways I had was how Roosevelt would read two or three books &lt;em&gt;each day&lt;/em&gt;. Can you imagine reading nearly a thousand books a year, while acting as President of the United States?&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;
-    Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
-  &lt;/p&gt;
-  &lt;footer&gt;&lt;cite title=&quot;Antoine de Saint-Exupéry&quot;&gt;Antoine de Saint-Exupéry&lt;/cite&gt;&lt;/footer&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;With that tidbit in the back of my mind, my reading throughput has increased over the years. But since last May, after moving and discovering &lt;a href=&quot;https://www.goodreads.com/user/show/22064165-matt&quot;&gt;Goodreads&lt;/a&gt; I have been on a bender and I don&amp;rsquo;t plan on stopping. Officially, my goal is to read at least forty books this year.&lt;/p&gt;
 
-&lt;h3 id=&quot;toc_7&quot;&gt;There&amp;rsquo;s more being added all the time&lt;/h3&gt;
-
-&lt;p&gt;Checkout the &lt;a href=&quot;https://github.com/johnotander/pixyll&quot;&gt;Github repository&lt;/a&gt; to request,
-or add, features.&lt;/p&gt;
-
-&lt;p&gt;Happy writing.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 20 Jan 2015 12:31:19 +0000</pubDate>
-        <link>http://www.mattcatrett.com/jekyll/pixyll/2015/01/20/this-is-what-the-theme-looks-like/</link>
-        <guid isPermaLink="true">http://www.mattcatrett.com/jekyll/pixyll/2015/01/20/this-is-what-the-theme-looks-like/</guid>
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You&amp;rsquo;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll&amp;rsquo;s GitHub repo&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 10 Jan 2015 13:19:30 +0000</pubDate>
-        <link>http://www.mattcatrett.com/jekyll/update/2015/01/10/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://www.mattcatrett.com/jekyll/update/2015/01/10/welcome-to-jekyll/</guid>
-      </item>
-    
-      <item>
-        <title>Yo Jekyll!</title>
-        <description>&lt;h1 id=&quot;toc_0&quot;&gt;&amp;lsquo;Allo, &amp;#39;Allo!&lt;/h1&gt;
-
-&lt;p&gt;You now have&lt;/p&gt;
+&lt;p&gt;I do have a few general guidelines (which I do bend from time to time):&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Jekyll&lt;/li&gt;
-&lt;li&gt;Html5 Boilerplate based templates&lt;/li&gt;
-&lt;li&gt;jQuery and Modernizr&lt;/li&gt;
-&lt;li&gt;Sass and Compass&lt;/li&gt;
-&lt;li&gt;Coffeescript tools&lt;/li&gt;
-&lt;li&gt;redcarpet markdown parser and Pygments highlighter&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Read at a comfortable rate.&lt;/strong&gt; I can throttle up my reading speed, but I find that my short-term comprehension and long-term retaining of information decreases at a higher rate.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Two-to-one non-fiction to fiction ratio.&lt;/strong&gt; I enjoy good fiction, but I also love learning, so I tend to find this ratio to be my natural tendancy.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Don&amp;rsquo;t be afraid to read multiple books at one time.&lt;/strong&gt; However, I tend to read fiction by itself so I can focus on the world that the author has created.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Don&amp;rsquo;t be afraid to stop reading a book (or skim it if it is non-fiction).&lt;/strong&gt; Reading is supposed to be fun: keep it that way and don&amp;rsquo;t fret over quitting. I rarely have done this since I tend to research what books to read, which helps. But I have grabbed interesting-looking titles from the library only to lose steam midway through.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Write about what you&amp;rsquo;ve read.&lt;/strong&gt; This is something I wish I started doing a &lt;em&gt;long&lt;/em&gt; time ago. With the Kindle (and its apps) you can easily highlight passages and then view them without opening the book again, which is quite nice. However, writing down a few observations or quotes makes a great difference in how you retain the important stuff from your reading. I doubt I will remember every detail that I found interesting, but if I record a few into Evernote or a pen-and-paper notebook, I will be able to look back on them years down the road and re-trigger that memory.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;installed.&lt;/p&gt;
+&lt;p&gt;But there is one rule that trumps any other: have fun. Sometimes I am in the mood to study a topic I am reading about; other times I just want to be taken on an adventure. Reading does not have to be a chore and you don&amp;rsquo;t need to collect read books like Pokémon.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Enjoy coding!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Here is my &lt;a href=&quot;/books&quot;&gt;list of 2015 books read&lt;/a&gt;, thus far.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 10 Jan 2015 00:00:00 -0600</pubDate>
-        <link>http://www.mattcatrett.com/jekyll/update/2015/01/10/yo-jekyllrb/</link>
-        <guid isPermaLink="true">http://www.mattcatrett.com/jekyll/update/2015/01/10/yo-jekyllrb/</guid>
+        <pubDate>Tue, 03 Feb 2015 19:19:30 +0000</pubDate>
+        <link>http://www.mattcatrett.com/books/2015/02/03/on-reading/</link>
+        <guid isPermaLink="true">http://www.mattcatrett.com/books/2015/02/03/on-reading/</guid>
       </item>
     
   </channel>
